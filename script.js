@@ -15,7 +15,7 @@ var fleftElement = document.querySelectorAll(".fleftElement");
 var images = document.querySelector(".images");
 
 btn.addEventListener('click', ()=>{
-    featured.style.marginBottom = '140vw';
+    featured.style.marginBottom = '150vw';
     img1.style.marginBottom = "5vw";
     img2.forEach(element => {
         element.style.display = 'block';
